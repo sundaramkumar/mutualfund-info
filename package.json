@@ -1,15 +1,13 @@
 {
   "name": "mutualfund-info",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "NPM Package to get the NAVs of Mutual Funds in India",
   "main": "index.js",
-  "scripts": {
-    "test": "mocha"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sundaramkumar/mutualfund-info.git"
   },
+  "type": "module",
   "keywords": [
     "mutualfund",
     "mf",
@@ -20,6 +18,9 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sundaramkumar/mutualfund-info/issues"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
   },
   "homepage": "https://github.com/sundaramkumar/mutualfund-info#readme"
 }
